@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안영진 - Toneiverse Developer</title>
+    <meta name="description" content="AI와 AR의 융합을 만들어가는 Toneiverse 개발자 안영진의 포트폴리오입니다.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <header class="glass-nav">
+        <div class="logo">안영진</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="안영진">안영진</h1>
+                <h2 class="subtitle">Toneiverse Developer</h2>
+                <p class="tagline">Bridging <span class="highlight">AI</span> & <span class="highlight">AR</span></p>
+                <a href="#about" class="cta-button">Explore</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Who I Am</h2>
+                <div class="about-card glass-card">
+                    <p>안녕하세요, <strong>Toneiverse</strong> 개발자 <strong>안영진</strong>입니다.</p>
+                    <br>
+                    <p>저는 현재 <strong>리눅스, 이미지 딥러닝, AR, AI 모델 서빙, 클라우드</strong> 등 첨단 기술을 융합하여 새로운 가치를 창출하는 것을 목표로 하고
+                        있습니다.</p>
+                    <p>이미지 데이터 및 딥러닝, AR, 백엔드 분야의 전문가로 성장하고 있으며, 청소년 수련관에서 AI와 데이터를 활용한 프로젝트 제작 강의를 진행한 경험이 있습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="glass-card skills-card">
+                    <div class="skill-category">
+                        <h3>Languages & Core</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Data</h3>
+                        <div class="skill-tags">
+                            <span>Ultralytics</span>
+                            <span>OpenCV</span>
+                            <span>FastAPI</span>
+                            <span>Pandas</span>
+                            <span>Postgresql</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AR & Game Engine</h3>
+                        <div class="skill-tags">
+                            <span>Unity</span>
+                            <span>AR Foundation</span>
+                            <span>Photon engine</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Infrastructure & Tools</h3>
+                        <div class="skill-tags">
+                            <span>Windows</span>
+                            <span>Ubuntu</span>
+                            <span>Docker</span>
+                            <span>Oracle Cloud</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Projects & Research</h2>
+                <div class="grid-container">
+                    <div class="glass-card project-card">
+                        <h3>Toneiverse</h3>
+                        <p>AI/AR 융합 기반 퍼스널컬러 진단 및 가상 메이크업 시스템</p>
+                        <a href="https://toneiverse.netlify.app/" class="project-btn" target="_blank">공식 홈페이지</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.an0jin.Toneiverse"
+                            class="project-btn" target="_blank">Google Play</a>
+                    </div>
+
+                    <div class="glass-card project-card">
+                        <h3>Published Paper</h3>
+                        <p style="font-size: 0.9em; margin-bottom: 0.5rem;">A Real-Time Tourist Information and AR
+                            Experience System Using FastAPI and Unity</p>
+                        <br>
+                        <a href="https://www.koreascience.kr/article/JAKO202509257604755.page" class="project-btn"
+                            target="_blank">논문 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Connect</h2>
+                <div class="glass-card contact-card">
+                    <p>미래를 함께 만들어가고 싶으신가요?</p>
+                    <div class="social-links">
+                        <a href="https://github.com/an0jin" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/an0jin/" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Yeongjin Ahn. All rights reserved.</p>
+        <p>Powered by Toneiverse Technology.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
